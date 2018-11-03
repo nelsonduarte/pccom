@@ -1,0 +1,485 @@
+/* Retirar margens e Padding da página */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Definir fonte da página */
+
+html {
+    font-family: 'Arial', Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    overflow-x: hidden;
+}
+
+
+/* Definir ul global */
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Definição global de Conteiners da página */
+
+.conteiner-grande {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.conteiner-pequeno {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.conteiner-forms {
+    width: 80%;
+    min-height: 400px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px 0 40px 200px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+
+/* Menu Registar */
+
+.registar {
+    background: #063872;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    min-height: 30px;
+    font-size: 14px;
+}
+
+.registar button {
+    border: none;
+    float: right;
+    margin: 0 20px;
+    background: none;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.registar a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.registar a:hover {
+    color: #7fb8fa;
+    text-decoration: none;
+}
+
+.registar li {
+    float: right;
+    display: inline;
+    padding: 0 20px;
+}
+
+
+/* Logo, procurar e items */
+
+#logo-procurar-carrinho {
+    margin: 20px;
+}
+
+.logo img {
+    width: 15%;
+    float: left;
+    display: block;
+    min-width: 200px;
+}
+
+.procurar input {
+    float: left;
+    margin: 0 70px;
+    font-size: 1em;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.carrinho img {
+    float: left;
+    background: #fc0000;
+    padding: 6px;
+    margin: 0;
+    border-radius: 4px;
+}
+
+.items input {
+    float: left;
+    font-size: 1em;
+    padding-left: 10px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+
+/* Menu navegação */
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: #7fb8fa;
+    text-decoration: none;
+}
+
+.atual a {
+    color: #7fb8fa;
+}
+
+.menu li {
+    display: inline;
+    padding: 0 50px;
+    text-align: center;
+}
+
+.menu {
+    background: #063872;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    min-height: 40px;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.mySlides {
+    display: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Caption text */
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 10s;
+    animation-name: fade;
+    animation-duration: 10s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes scroll {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* Barra novidades */
+
+.novidades {
+    width: 100%;
+    background: #063872;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+/* Definição da galeria */
+
+.galeria {
+    text-align: center;
+    background: #f6f6f6;
+}
+
+.box {
+    background: #fff;
+    padding: 10px 10px 0 10px;
+    margin: 50px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    width: 300px;
+    height: 350px;
+}
+
+.box .imagem img {
+    width: 50px;
+}
+
+.box button {
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+    width: 90%;
+    font-size: 1em;
+    margin: 10px;
+    background: #fc0000;
+    border: none;
+    color: #fff;
+}
+
+.box a {
+    text-decoration: none;
+    color: #000;
+}
+
+.box a:hover {
+    color: #063872;
+}
+
+
+/* Footer */
+
+footer {
+    background: #1d1d1d;
+    width: 100%;
+    margin-top: 5%;
+}
+
+footer p {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    overflow-x: hidden;
+}
+
+
+/* Formularios */
+
+legend p {
+    color: #fff;
+    background: #063872;
+    padding: 10px;
+    width: 80%;
+}
+
+.conteiner-forms input[type=text],
+input[type=email],
+input[type=password],
+select,
+textarea {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: auto;
+}
+
+.procurar input[type=search],
+input[type=text] {
+    width: 30%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+input[type=submit] {
+    background-color: #000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80%;
+}
+
+input[type=submit]:hover {
+    background-color: #2fac25;
+}
+
+.container form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+
+/* Mapa */
+
+#map {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tamanho para Smartphones e Tablets*/
+
+@media only screen and (max-width: 769px) {
+    * {
+        box-sizing: content-box;
+    }
+    .conteiner-grande {
+        margin: auto;
+    }
+    .conteiner-pequeno {
+        margin: auto;
+        background: none;
+    }
+    #logo-procurar-carrinho {
+        text-align: center;
+        margin: auto;
+    }
+    .logo img {
+        width: 100%;
+        text-align: center;
+        display: block;
+        min-width: 200px;
+        margin-top: 20px;
+    }
+    .procurar input[type=search] {
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;
+        font-size: 1em;
+        padding-left: 10px;
+    }
+    .carrinho img {
+        padding: 8px;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .items input {
+        width: 80%;
+        float: left;
+        margin: auto;
+        margin-top: 10px;
+    }
+    .menu li {
+        display: block;
+        padding: 20px 20px;
+        text-align: center;
+        border-bottom: 2px solid #fff;
+    }
+    .box {
+        display: block;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    #carroussel {
+        display: none;
+    }
+    .conteiner-forms {
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+    }
+    .conteiner-forms input[type=text],
+    input[type=email],
+    input[type=password],
+    select,
+    textarea,
+    legend {
+        width: 80%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .legenda {
+        width: 80%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin: auto;
+        color: #fff;
+    }
+    /* Descrição dos produtos*/
+    .descricao {
+        padding-top: 20px;
+    }
+}
